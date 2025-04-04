@@ -16,15 +16,15 @@
 
 
 class Solution:
-    def __init__(self, sentence: str, searchWord: str) -> None:
+    def __init__(self, sentence: str, searh_word: str) -> None:
         self.sentence = sentence
-        self.searchWord = searchWord
+        self.searh_word = searh_word
 
-    def isPrefixOfWord(self) -> int:
+    def is_prefix_of_word(self) -> int:
         i: int = 0
         sentence_words = self.sentence.split()
         for word in sentence_words:
-            if word.startswith(self.searchWord):
+            if word.startswith(self.searh_word):
                 break
             else:
                 i += 1
@@ -33,9 +33,9 @@ class Solution:
 
 
 case1: Solution = Solution(
-    sentence="i love eating burger", searchWord="burg")
-print(case1.isPrefixOfWord())    # Should ouptut 4
+    sentence="i love eating burger", searh_word="burg")
+print(case1.is_prefix_of_word())    # Should ouptut 4
 
 case2: Solution = Solution(
-    sentence="i am tired", searchWord="you")
-print(case2.isPrefixOfWord())    # Should ouptut -1
+    sentence="i am tired", searh_word="you")
+print(case2.is_prefix_of_word())    # Should ouptut -1

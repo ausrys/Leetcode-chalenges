@@ -6,13 +6,13 @@ reversed the string. Then I compared both strings to see if they are equal
 '''
 
 
-def isPalindrome(x: int) -> bool:
+def is_palindrome(x: int) -> bool:
     if str(x) != (str(x)[::-1]):
         return False
 
     return True
 
 
-print(isPalindrome(212))  # True
-print(isPalindrome(213))  # False
-print(isPalindrome(-212))  # False
+print(is_palindrome(212))  # True
+print(is_palindrome(213))  # False
+print(is_palindrome(-212))  # False

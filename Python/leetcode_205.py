@@ -18,7 +18,7 @@ and the strings could not be isomophic.
 '''
 
 
-def isIsomorphic(s: str, t: str) -> bool:
+def is_isomorphic(s: str, t: str) -> bool:
     if len(s) != len(t):
         return False
     if len(set(list(s))) != len(set(list(t))):
@@ -33,6 +33,6 @@ def isIsomorphic(s: str, t: str) -> bool:
     return True
 
 
-print(isIsomorphic("bbbaaaba", "aaabbbba"))  # False
-print(isIsomorphic("egg", "add"))  # True
-print(isIsomorphic("paper", "title"))  # True
+print(is_isomorphic("bbbaaaba", "aaabbbba"))  # False
+print(is_isomorphic("egg", "add"))  # True
+print(is_isomorphic("paper", "title"))  # True

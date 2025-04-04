@@ -22,7 +22,7 @@ class Solution:
     def __init__(self, s: str) -> None:
         self.s = s
 
-    def reverseDegree(self) -> int:
+    def reverse_degree(self) -> int:
         index: int = 1
         result: int = 0
         for char in self.s:
@@ -33,7 +33,7 @@ class Solution:
 
 
 case1: Solution = Solution(s="abc")
-print(case1.reverseDegree())    # Should ouptut 148
+print(case1.reverse_degree())    # Should ouptut 148
 
 case2: Solution = Solution(s="zaza")
-print(case2.reverseDegree())    # Should ouptut 160
+print(case2.reverse_degree())    # Should ouptut 160
