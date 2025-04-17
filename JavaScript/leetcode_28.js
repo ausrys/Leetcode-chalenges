@@ -3,8 +3,8 @@ Given two strings needle and haystack, return the index of the first
 occurrence of needle in haystack, or -1 if needle is not part of haystack.
 We check if provided needle exists in haystack and then check its index.
 */
-function needle_in_stack(stack, needle) {
-    if (stack.includes(needle)) return stack.indexOf(needle)
+function needle_in_stack(haystack, needle) {
+    if (haystack.includes(needle)) return haystack.indexOf(needle)
     return -1
 }
 

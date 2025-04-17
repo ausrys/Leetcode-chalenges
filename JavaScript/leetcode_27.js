@@ -19,7 +19,10 @@ equal to the val and simply change original nums list values
 function remove_element(array, element) {
     let k = 0;
     for (num of array) {
-        if (num !== element) k++;
+        if (num !== element) {
+            nums[k] = num;
+            k++;
+        }
     }
     return k;
 }
