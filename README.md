@@ -6,7 +6,7 @@ My account - https://leetcode.com/u/ausryswork/
 
 ## 🚀 Challenges Included
 
-| #   | Problem           | Description                                        | JavaScript | Python |
+| #   | Problem           | Description                                        | JavaScript(ms) | Python(ms) |
 | --- | ----------------- | -------------------------------------------------- | ---------- | ------ |
 | 1   | Valid Parentheses | Check if brackets are valid and well-nested.       |            |        |
 | 2   | Power of Two      | Check if a number is a power of two.               |            |        |
@@ -14,3 +14,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 4   | Majority Element  | Return element appearing more than ⌊n / 2⌋ times.  |            |        |
 | 5   | Combination Sum   | Return all combinations that sum to a target.      |            |        |
 | 6   | Valid Anagram     | Check if two strings are anagrams.                 |            |        |
+|104| Max Tree Depth | Find max binary tree depth.| 1 | 0|
+|100| Same Tree| Compare Two Binary Trees| 0 | 0|
