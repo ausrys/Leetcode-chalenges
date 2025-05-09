@@ -16,3 +16,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 6   | Valid Anagram     | Check if two strings are anagrams.                 |            |        |
 |104| Max Tree Depth | Find max binary tree depth.| 1 | 0|
 |100| Same Tree| Compare Two Binary Trees| 0 | 0|
+|501| Tree modes| The most frequently occurred element in a tree| 8 | 7|
+|700| Tree search| Search node value in a tree| 0 | 0|
