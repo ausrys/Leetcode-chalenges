@@ -15,8 +15,10 @@ My account - https://leetcode.com/u/ausryswork/
 | 5   | Combination Sum   | Return all combinations that sum to a target.      |                |            |
 | 6   | Valid Anagram     | Check if two strings are anagrams.                 |                |            |
 | 104 | Max Tree Depth    | Find max binary tree depth.                        | 1              | 0          |
-| 100 | Same Tree         | Compare Two Binary Trees                           | 0              | 0          |
-| 501 | Tree modes        | The most frequently occurred element in a tree     | 8              | 7          |
-| 700 | Tree search       | Search node value in a tree                        | 0              | 0          |
-| 94  | Tree Inorder      | Traverse in order and get the values               | 0              | 0          |
-| 101 | Symmetric Tree    | Check whether tree is symmetrical                  | 0              | 0          |
+| 100 | Same Tree         | Compare Two Binary Trees.                           | 0              | 0          |
+| 501 | Tree modes        | The most frequently occurred element in a tree.     | 8              | 7          |
+| 700 | Tree search       | Search node value in a tree.                        | 0              | 0          |
+| 94  | Tree Inorder      | Traverse in order and get the values.               | 0              | 0          |
+| 101 | Symmetric Tree    | Check whether tree is symmetrical.                  | 0              | 0          |
+| 108 | Array to Tree    | Convert sorted nums array to height balanced tree.                 | 2              | 3          |
+| 110 | Balanced Tree   | Given a binary tree, determine if it is height-balanced. | 2              | 3          |
