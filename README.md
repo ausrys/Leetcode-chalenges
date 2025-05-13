@@ -22,3 +22,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 101 | Symmetric Tree    | Check whether tree is symmetrical.                  | 0              | 0          |
 | 108 | Array to Tree    | Convert sorted nums array to height balanced tree.                 | 2              | 3          |
 | 110 | Balanced Tree   | Given a binary tree, determine if it is height-balanced. | 2              | 3          |
+| 112 | Path Sum   | Find if tree has a path summed to target sum | 1              | 0          |
+| 144 | Preorder Traverse   | Preorder traverse tree, return nodes values | 0              | 0          |
