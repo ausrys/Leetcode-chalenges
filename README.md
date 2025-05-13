@@ -6,14 +6,14 @@ My account - https://leetcode.com/u/ausryswork/
 
 ## 🚀 Challenges Included
 
-| #   | Problem           | Description                                        | JavaScript(ms) | Python(ms) |
+| LeetCode Problem number   | Problem           | Description                                        | JavaScript(ms) | Python(ms) |
 | --- | ----------------- | -------------------------------------------------- | -------------- | ---------- |
-| 1   | Valid Parentheses | Check if brackets are valid and well-nested.       |                |            |
-| 2   | Power of Two      | Check if a number is a power of two.               |                |            |
-| 3   | Single Number     | Find the unique element where others appear twice. |                |            |
-| 4   | Majority Element  | Return element appearing more than ⌊n / 2⌋ times.  |                |            |
-| 5   | Combination Sum   | Return all combinations that sum to a target.      |                |            |
-| 6   | Valid Anagram     | Check if two strings are anagrams.                 |                |            |
+| 20   | Valid Parentheses | Check if brackets are valid and well-nested.       |       1         |  0          |
+| 231   | Power of Two      | Check if a number is a power of two.               |     0           |    0        |
+| 136   | Single Number     | Find the unique element where others appear twice. |      3          |      0      |
+| 169   | Majority Element  | Return element appearing more than ⌊n / 2⌋ times.  |        1        |     0       |
+| 39   | Combination Sum   | Return all combinations that sum to a target.      |         6       |     7       |
+| 242   | Valid Anagram     | Check if two strings are anagrams.                 |        7        |      7      |
 | 104 | Max Tree Depth    | Find max binary tree depth.                        | 1              | 0          |
 | 100 | Same Tree         | Compare Two Binary Trees.                           | 0              | 0          |
 | 501 | Tree modes        | The most frequently occurred element in a tree.     | 8              | 7          |

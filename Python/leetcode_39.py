@@ -12,6 +12,7 @@ combinations that sum up to target is less than 150 combinations
 for the given input.
 '''
 
+
 def combination_sum(candidates, target):
     result = []
 
@@ -24,7 +25,8 @@ def combination_sum(candidates, target):
 
         for i in range(start, len(candidates)):
             current_combination.append(candidates[i])
-            backtrack(i, current_combination, total + candidates[i])  # allow reuse of same number
+            # allow reuse of same number
+            backtrack(i, current_combination, total + candidates[i])
             current_combination.pop()  # backtrack
 
     backtrack(0, [], 0)
