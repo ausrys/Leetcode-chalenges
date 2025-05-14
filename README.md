@@ -24,3 +24,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 110 | Balanced Tree   | Given a binary tree, determine if it is height-balanced. | 2              | 3          |
 | 112 | Path Sum   | Find if tree has a path summed to target sum | 1              | 0          |
 | 144 | Preorder Traverse   | Preorder traverse tree, return nodes values | 0              | 0          |
+| 144 | Postorder Traverse   | Postorder traverse tree, return nodes values | 0              | 0          |
+| 111 | Min Depth   | Find minimum depth of a tree | 5              | 41          |
