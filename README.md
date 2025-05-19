@@ -6,7 +6,7 @@ My account - https://leetcode.com/u/ausryswork/
 
 ## 🚀 Challenges Included
 
-| LeetCode Problem number   | Problem           | Description                                        | JavaScript(ms) | Python(ms) |
+| LeetCode Problem number   | Problem           | Description                                        | JavaScript(ms) | Python(ms) | Time complexity |
 | --- | ----------------- | -------------------------------------------------- | -------------- | ---------- |
 | 20   | Valid Parentheses | Check if brackets are valid and well-nested.       |       1         |  0          |
 | 231   | Power of Two      | Check if a number is a power of two.               |     0           |    0        |
@@ -29,3 +29,6 @@ My account - https://leetcode.com/u/ausryswork/
 | 222 | Tree Nodes Number  | Find the number of nodes in a tree | 0              | 0          |
 | 226 | Invert Tree  | Invert a binary tree | 0              | 0          |
 | 11 |Container With Most Water  | Return the maximum amount of water a container can store. | 3              | 111          |
+| 118 |Pascal's Triangle  | Return the first numRows of Pascal's triangle | 0              | 0          | O (n^2) |
+| 119 |Pascal's Triangle  | Return the last row of Pascal's triangle | 0              | 0          | O (n^2) |
+| 34 |Element Positions  | Find First and Last Position of Element in Sorted Array | 0              | 0          | O (log(n)) |
