@@ -4,7 +4,7 @@ import unittest
 from leetcode_2891 import find_heavy_animals
 from leetcode_2890 import melt_table
 from leetcode_2889 import pivot_table
-from leetcide_2888 import concat_tables
+from leetcode_2888 import concat_tables
 from leetcode_2887 import fill_missing_values
 from leetcode_2886 import change_data_type
 from leetcode_2885 import rename_columns
