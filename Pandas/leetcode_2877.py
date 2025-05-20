@@ -4,7 +4,6 @@ This 2D list contains the IDs and ages of some students.
 
 The DataFrame should have two columns, student_id and age, and be in the
 same order as the original 2D list.
-
 '''
 from typing import List
 
