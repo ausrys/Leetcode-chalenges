@@ -35,3 +35,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 1 |Two Sum  | Return indices of the two numbers such that they add up to target. | 0              | 0          | O (n)|
 | 9 |Palindrome Number  | Given an integer return true if it's is a palindrome, and false otherwise. | 7              | 2          | O (1)|
 | 12 |Integer To Roman  | Given an integer, convert it to a Roman numeral. | 3              | 3          | O (n)|
+| 13 |Roman to Integer  | Given an roman number, convert it to a integer. | 3              | 2          | O (n)|
+| 14 |Longest Prefix  | Find the longest common prefix string amongst an array of strings. | 4              | 4          | O (n*t)|
