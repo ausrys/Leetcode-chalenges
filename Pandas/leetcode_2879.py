@@ -1,5 +1,5 @@
 '''
-Write a solution to display the first 3 rows of this DataFrame.
+Write a solution to display the first 3 rows of this DataFrame
 '''
 
 import pandas as pd
