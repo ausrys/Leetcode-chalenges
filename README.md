@@ -38,4 +38,6 @@ My account - https://leetcode.com/u/ausryswork/
 | 13                      | Roman to Integer          | Given an roman number, convert it to a integer.                            | 3              | 2          | O (n)           |
 | 14                      | Longest Prefix            | Find the longest common prefix string amongst an array of strings.         | 4              | 4          | O (n\*t)        |
 | 219                     | Contains Duplicate II     | Check if nums[i] == nums[j] and abs(i - j) <= k.                           | 21             | 25         | O (n)           |
-| 414                     | 3rd Max Number            | Find 3rd maximum num in array if exists                                    | 5              | 0          | O (n)           |
+| 414                     | 3rd Max Number            | Find 3rd maximum num in array if exists.                                   | 5              | 0          | O (n)           |
+| 448                     | Dissapeared numbers       | Find All Numbers Disappeared in an Array.                                  | 21             | 48         | O (n)           |
+| 455                     | Assign Cookies            | maximize the number of your content children.                              | 28             | 19         | O (n)           |

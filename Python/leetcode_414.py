@@ -2,6 +2,7 @@
 Given an integer array nums, return the third distinct maximum number in
 this array. If the third maximum does not exist, return the maximum number.
 '''
+from typing import List
 
 
 def third_max(nums: List[int]) -> int:
