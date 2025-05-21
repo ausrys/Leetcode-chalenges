@@ -37,3 +37,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 12                      | Integer To Roman          | Given an integer, convert it to a Roman numeral.                           | 3              | 3          | O (n)           |
 | 13                      | Roman to Integer          | Given an roman number, convert it to a integer.                            | 3              | 2          | O (n)           |
 | 14                      | Longest Prefix            | Find the longest common prefix string amongst an array of strings.         | 4              | 4          | O (n\*t)        |
+| 219                     | Contains Duplicate II     | Check if nums[i] == nums[j] and abs(i - j) <= k.                           | 21             | 25         | O (n)           |
+| 414                     | 3rd Max Number            | Find 3rd maximum num in array if exists                                    | 5              | 0          | O (n)           |
