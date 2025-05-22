@@ -41,3 +41,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 414                     | 3rd Max Number            | Find 3rd maximum num in array if exists.                                   | 5              | 0          | O (n)           |
 | 448                     | Dissapeared numbers       | Find All Numbers Disappeared in an Array.                                  | 21             | 48         | O (n)           |
 | 455                     | Assign Cookies            | maximize the number of your content children.                              | 28             | 19         | O (n)           |
+| 485                     | Max Consecutive Ones            | Find maximum number of consecutive 1's children.                              | 5             | 33         | O (n)           |
+| 495                     | Poision Duration            | Number of seconds that Ashe is poisoned. children.                              | 0             | 27         | O (n)           |
