@@ -40,6 +40,8 @@ My account - https://leetcode.com/u/ausryswork/
 | 219                     | Contains Duplicate II     | Check if nums[i] == nums[j] and abs(i - j) <= k.                           | 21             | 25         | O (n)           |
 | 414                     | 3rd Max Number            | Find 3rd maximum num in array if exists.                                   | 5              | 0          | O (n)           |
 | 448                     | Dissapeared numbers       | Find All Numbers Disappeared in an Array.                                  | 21             | 48         | O (n)           |
-| 455                     | Assign Cookies            | maximize the number of your content children.                              | 28             | 19         | O (n)           |
-| 485                     | Max Consecutive Ones            | Find maximum number of consecutive 1's children.                              | 5             | 33         | O (n)           |
-| 495                     | Poision Duration            | Number of seconds that Ashe is poisoned. children.                              | 0             | 27         | O (n)           |
+| 455                     | Assign Cookies            | Maximize the number of your content children.                              | 28             | 19         | O (n)           |
+| 485                     | Max Consecutive Ones      | Find maximum number of consecutive 1's children.                           | 5              | 33         | O (n)           |
+| 495                     | Poision Duration          | Number of seconds that Ashe is poisoned.                                   | 0              | 27         | O (n)           |
+| 53                      | Maximum Subarray          | Find the subarray with the largest sum.                                    | 5              | 18         | O (n)           |
+| 58                      | Length of Last Word       | Find the length of the last word in the string.                            | 0              | 0          | O (1)           |
