@@ -45,3 +45,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 495                     | Poision Duration          | Number of seconds that Ashe is poisoned.                                   | 0              | 27         | O (n)           |
 | 53                      | Maximum Subarray          | Find the subarray with the largest sum.                                    | 5              | 18         | O (n)           |
 | 58                      | Length of Last Word       | Find the length of the last word in the string.                            | 0              | 0          | O (1)           |
+| 75                      | Sort colors       | Sort colors in place                            | 0              | 0          | O (n)           |
+| 79                      | Word Search       | Check if word exists in the grid                            | 300              | 3100          | O (m\* n\* 3 ^ L)           |
