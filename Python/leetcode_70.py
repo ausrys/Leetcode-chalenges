@@ -21,3 +21,4 @@ def climb_stairs(n: int) -> int:
 print(climb_stairs(3))  # 3
 print(climb_stairs(4))  # 5
 print(climb_stairs(5))  # 8
+print(climb_stairs(6))  # 13

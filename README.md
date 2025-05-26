@@ -49,3 +49,8 @@ My account - https://leetcode.com/u/ausryswork/
 | 79                      | Word Search       | Check if word exists in the grid                            | 300              | 3100          | O (m\* n\* 3 ^ L)           |
 | 257                      | Binary Tree Paths       | Find all root-to-leaf paths                            | 0              | 0          | O (n)           |
 | 389                      | Find The Difference       | Find the letter that was added to the string                            | 4              | 3          | O (n)           |
+| 66                      | Plus One       | Increment large integer                            | 0              | 0          | O (n)           |
+| 67                      | Add Binary      | Sum of two binary strings                           | 0              | 3          | O (1)           |
+| 69                      | Sqrt(x)    | Find nearest square root                          | 1              | 0          | O (n)           |
+| 70                      | Climbing Stairs   |  Distinct ways to climb to the top.                         | 0              | 0          | O (n)           |
+| 70                      | Merge sorted array   |  Merge sorted array                         | 0              | 0          | O (n)           |
