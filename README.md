@@ -47,3 +47,5 @@ My account - https://leetcode.com/u/ausryswork/
 | 58                      | Length of Last Word       | Find the length of the last word in the string.                            | 0              | 0          | O (1)           |
 | 75                      | Sort colors       | Sort colors in place                            | 0              | 0          | O (n)           |
 | 79                      | Word Search       | Check if word exists in the grid                            | 300              | 3100          | O (m\* n\* 3 ^ L)           |
+| 257                      | Binary Tree Paths       | Find all root-to-leaf paths                            | 0              | 0          | O (n)           |
+| 389                      | Find The Difference       | Find the letter that was added to the string                            | 4              | 3          | O (n)           |
