@@ -53,4 +53,6 @@ My account - https://leetcode.com/u/ausryswork/
 | 67                      | Add Binary      | Sum of two binary strings                           | 0              | 3          | O (1)           |
 | 69                      | Sqrt(x)    | Find nearest square root                          | 1              | 0          | O (n)           |
 | 70                      | Climbing Stairs   |  Distinct ways to climb to the top.                         | 0              | 0          | O (n)           |
-| 70                      | Merge sorted array   |  Merge sorted array                         | 0              | 0          | O (n)           |
+| 88                      | Merge Sorted Array   |  Merge sorted array                         | 0              | 0          | O (n)           |
+| 21                      | Merge Linked Lists   |  Merge Two Sorted Lists                        | 0              | 0          | O (n)           |
+| 190                      | Reverse Bits   | Reversing 32 bit number                        | 0              | 33          | O (n)           |
