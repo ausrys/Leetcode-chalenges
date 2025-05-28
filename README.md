@@ -55,4 +55,6 @@ My account - https://leetcode.com/u/ausryswork/
 | 70                      | Climbing Stairs   |  Distinct ways to climb to the top.                         | 0              | 0          | O (n)           |
 | 88                      | Merge Sorted Array   |  Merge sorted array                         | 0              | 0          | O (n)           |
 | 21                      | Merge Linked Lists   |  Merge Two Sorted Lists                        | 0              | 0          | O (n)           |
-| 190                      | Reverse Bits   | Reversing 32 bit number                        | 0              | 33          | O (n)           |
+| 190                      | Reverse Bits   | Reversing 32 bit number                        | 30              | 33          | O (n)           |
+| 3                      | Longest Substring   | Longest substring without duplicate characters.                        | 9              | 35          | O (n)           |
+| 409                      | Longest Polindrome   |  Find longest palindrome that can be built.                        | 0              | 0          | O (n)           |
