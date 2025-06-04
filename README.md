@@ -60,4 +60,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 409                     | Longest Polindrome        | Find longest palindrome that can be built.                                 | 0              | 0          | O (n)             |
 | 561                     | Array Partition           | Find maximized min sum.                                                    | 30             | 27         | O (n)             |
 | 704                     | Binary Search             | Find target in nums array                                                  | 0              | 0          | O (log n)         |
-| 804                     | Unique Morse Words        | Find the number of different transformations among all provided words.     | 0              | 0          | O (n*t)           |
+| 804                     | Unique Morse Words        | Find the number of different transformations among all provided words.     | 0              | 0          | O (n)             |
+| 303                     | Range Sum Query           | Given an integer array nums, handle multiple queries.                      | 5              | 7          | O (n)             |
