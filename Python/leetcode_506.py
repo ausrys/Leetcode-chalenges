@@ -9,7 +9,7 @@ def find_relative_ranks(score: List[int]) -> List[str]:
 
     result = [""] * len(score)
 
-    for i, (idx, val) in enumerate(sorted_scores):
+    for i, (idx, _) in enumerate(sorted_scores):
         if i < 3:
             result[idx] = rank_list[i]
         else:

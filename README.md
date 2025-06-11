@@ -65,3 +65,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 506                     | Relative ranks            | Find ralative ranks.                                                       | 3              | 3          | O (n)             |
 | 748                     | Shortest completing word  | Find the shortest completing word in words.                                | 30             | 30         | O (n*t)           |
 | 705                     | Design Hashset            | Design a HashSet without using any built-in hash table libraries.          | 27             | 600        | O (n)             |
+| 682                     | Baseball game             | Get the final score based on operations.                                   | 0              | 0          | O (n)             |
+| 717                     | 1-bit and 2-bit Chars     | Find out if last character is one bit.                                     | 0              | 0          | O (n)             |
