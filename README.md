@@ -67,5 +67,7 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 705                     | Design Hashset            | Design a HashSet without using any built-in hash table libraries.          | 27             | 600        | O (n)             |
 | 682                     | Baseball game             | Get the final score based on operations.                                   | 0              | 0          | O (n)             |
 | 717                     | 1-bit and 2-bit Chars     | Find out if last character is one bit.                                     | 0              | 0          | O (n)             |
-| 575                     | Distribute Candies        | Distribute Candies                                                         | 17             | 16         | O (1)             |
+| 575                     | Distribute Candies        | Distribute Candies.                                                        | 17             | 16         | O (1)             |
 | 832                     | Flipping an Image         | Reverse and Invert the image.                                              | 0              | 0          | O (n*t)           |
+| 977                     | Squares of a Sorted Array | Array of the squares of each number sorted in non-decreasing order.        | 6              | 11         | O (n)             |
+| 942                     | DI String Match           | Reconstruct the permutation.                                               | 6              | 11         | O (n)             |

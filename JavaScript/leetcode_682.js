@@ -10,7 +10,6 @@ var calPoints = function(operations) {
         else if (operations[index] === "C") points.pop()
         else if (operations[index] === "D") points.push(2 * points.at(-1))
         else points.push(points.at(-1) + points.at(-2) )
-    console.log(points);
     };
     let sum = 0
     for (let index = 0; index < points.length; index++) {
