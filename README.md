@@ -71,3 +71,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 832                     | Flipping an Image         | Reverse and Invert the image.                                              | 0              | 0          | O (n*t)           |
 | 977                     | Squares of a Sorted Array | Array of the squares of each number sorted in non-decreasing order.        | 6              | 11         | O (n)             |
 | 942                     | DI String Match           | Reconstruct the permutation.                                               | 6              | 11         | O (n)             |
+| 412                     | FizzBuzz                  | FizzBuzz                                                                   | 0              | 0          | O (n)             |
+| 415                     | Add String                | Add numbers from strings and convert them back to string                   | 3              | 3          | O (n)             |
