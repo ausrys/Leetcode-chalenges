@@ -75,3 +75,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 415                     | Add String                    | Add numbers from strings and convert them back to string                   | 3              | 3          | O (n)             |
 | 557                     | Reverse Words in a String III | Reverse Words in a String                                                  | 7              | 4          | O (n)             |
 | 657                     | Robot Return Origin           | Check if robot returns to the same position                                | 6              | 15         | O (n)             |
+| 884                     | Uncommon Words                | Find uncommon words from two sentences                                     | 0              | 0          | O (n)             |
+| 1108                    | Defang IP Adress              | Return a defanged version of that IP address.                              | 27             | 35         | O (n)             |
