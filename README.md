@@ -77,3 +77,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 657                     | Robot Return Origin           | Check if robot returns to the same position                                | 6              | 15         | O (n)             |
 | 884                     | Uncommon Words                | Find uncommon words from two sentences                                     | 0              | 0          | O (n)             |
 | 1108                    | Defang IP Adress              | Return a defanged version of that IP address.                              | 27             | 35         | O (n)             |
+| 771                     | Jewels and Stones             | Count how many jewels you have.                                            | 0              | 0          | O (n)             |
+| 796                     | Rotate String                 | Rotate the string by shifting.                                             | 0              | 0          | O (n)             |
