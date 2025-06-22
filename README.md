@@ -79,3 +79,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 1108                    | Defang IP Adress              | Return a defanged version of that IP address.                              | 27             | 35         | O (n)             |
 | 771                     | Jewels and Stones             | Count how many jewels you have.                                            | 0              | 0          | O (n)             |
 | 796                     | Rotate String                 | Rotate the string by shifting.                                             | 0              | 0          | O (n)             |
+| 824                     | Goat Latin                    | Remake the sentence in goat latin.                                         | 0              | 0          | O (n)             |
+| 1002                    | Find Common Characters        | All characters that show up in all strings                                 | 5              | 12         | O (n)             |
