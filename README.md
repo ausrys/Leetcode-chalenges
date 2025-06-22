@@ -81,3 +81,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 796                     | Rotate String                 | Rotate the string by shifting.                                             | 0              | 0          | O (n)             |
 | 824                     | Goat Latin                    | Remake the sentence in goat latin.                                         | 0              | 0          | O (n)             |
 | 1002                    | Find Common Characters        | All characters that show up in all strings                                 | 5              | 12         | O (n)             |
+| 1436                    | Destination City              | Find a city that has no outgoing destination.                              | 0              | 0          | O (n)             |
+| 1528                    | Shuffle String                | Shuffle the string into a new string with given indices.                   | 0              | 0          | O (n)             |
