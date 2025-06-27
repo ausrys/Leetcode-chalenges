@@ -89,3 +89,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 1304                    | Finds unique numbers to sum up to zero    | Find n unique numbers that add up to 0                                     | 0              | 0          | O (n)             |
 | 1287                    | Element appearing more than 25% In a List | Find a number that is appearing more than 25% times in a List              | 0              | 3          | O (n)             |
 | 1313                    | Decompress Encoded List                   | Decompress the list based on frequency => element                          | 0              | 0          | O (n)             |
+| 78                      | Subsets                                   | All possible subsets (the power set).                                      | 0              | 0          | O (n)             |
+| 1160                    | Word by characters                        | Find Words That Can Be Formed by Characters                                | 10             | 80         | O (n)             |
