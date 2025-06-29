@@ -91,3 +91,5 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 1313                    | Decompress Encoded List                   | Decompress the list based on frequency => element                          | 0              | 0          | O (n)             |
 | 78                      | Subsets                                   | All possible subsets (the power set).                                      | 0              | 0          | O (n)             |
 | 1160                    | Word by characters                        | Find Words That Can Be Formed by Characters                                | 10             | 80         | O (n)             |
+| 905                     | Sort Array By Parity                      | Move even numbers before odd numbers in a list.                            | 0              | 6          | O (n)             |
+| 860                     | Lemonade Change                           | Find out if lemonade seller can return change to all customers.            | 0              | 6          | O (n)             |
