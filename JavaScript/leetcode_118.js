@@ -1,6 +1,6 @@
-var generate = function(numRows) {
+var generate = function (numRows) {
     let result = [];
-    
+
     for (let i = 0; i < numRows; i++) {
         let row = Array(i + 1).fill(1); // Create row with i+1 elements, all 1
 
@@ -12,4 +12,4 @@ var generate = function(numRows) {
     }
 
     return result;
-}
+};

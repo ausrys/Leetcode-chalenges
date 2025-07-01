@@ -1,14 +1,14 @@
-var MyHashSet = function() {
+var MyHashSet = function () {
     this.size = 1000;
     this.buckets = Array.from({ length: this.size }, () => []);
 };
 
 // Simple hash function
-MyHashSet.prototype._hash = function(key) {
+MyHashSet.prototype._hash = function (key) {
     return key % this.size;
 };
 
-MyHashSet.prototype.add = function(key) {
+MyHashSet.prototype.add = function (key) {
     const index = this._hash(key);
     const bucket = this.buckets[index];
     if (!bucket.includes(key)) {
@@ -16,7 +16,7 @@ MyHashSet.prototype.add = function(key) {
     }
 };
 
-MyHashSet.prototype.remove = function(key) {
+MyHashSet.prototype.remove = function (key) {
     const index = this._hash(key);
     const bucket = this.buckets[index];
     const keyIndex = bucket.indexOf(key);
@@ -25,7 +25,7 @@ MyHashSet.prototype.remove = function(key) {
     }
 };
 
-MyHashSet.prototype.contains = function(key) {
+MyHashSet.prototype.contains = function (key) {
     const index = this._hash(key);
     const bucket = this.buckets[index];
     return bucket.includes(key);

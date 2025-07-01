@@ -8,20 +8,19 @@ We will use the integers 0, 1, and 2 to represent the color red, white, and blue
 You must solve this problem without using the library's sort function.
 */
 
-var sortColors = function(nums) {
+var sortColors = function (nums) {
     let low = 0;
     let mid = 0;
-    let high = nums.length-1;
+    let high = nums.length - 1;
     while (mid <= high) {
-        if (nums[mid]===0) {
+        if (nums[mid] === 0) {
             [nums[low], nums[mid]] = [nums[mid], nums[low]];
             mid++;
             low++;
-        }
-        else if (nums[mid] === 1) mid++;
+        } else if (nums[mid] === 1) mid++;
         else {
             [nums[mid], nums[high]] = [nums[high], nums[mid]];
             high--;
-        };
+        }
     }
 };

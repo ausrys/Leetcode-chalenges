@@ -1,4 +1,4 @@
-var findPoisonedDuration = function(timeSeries, duration) {
+var findPoisonedDuration = function (timeSeries, duration) {
     if (timeSeries.length === 0) return 0;
 
     let total = 0;

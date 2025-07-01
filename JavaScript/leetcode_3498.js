@@ -11,9 +11,9 @@
 function reverse_degree(string) {
     let result = 0;
     for (let i in string) {
-        result += Math.abs((string.charCodeAt(i)- 123) * (parseInt(i)+1));
-    };
+        result += Math.abs((string.charCodeAt(i) - 123) * (parseInt(i) + 1));
+    }
     return result;
 }
 
-console.log(reverse_degree("zaza")) // 160
+console.log(reverse_degree("zaza")); // 160

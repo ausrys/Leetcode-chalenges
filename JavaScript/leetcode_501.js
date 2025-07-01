@@ -10,7 +10,7 @@ The left subtree of a node contains only nodes with keys less than or equal to t
 The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
 Both the left and right subtrees must also be binary search trees.*/
 
-var findMode = function(root) {
+var findMode = function (root) {
     const nodesMap = {};
 
     if (!root) return [0];
@@ -32,6 +32,6 @@ var findMode = function(root) {
 
     const maxCount = Math.max(...Object.values(nodesMap));
     return Object.keys(nodesMap)
-        .filter(key => nodesMap[key] == maxCount)
-        .map(Number);  // Convert string keys back to numbers
+        .filter((key) => nodesMap[key] == maxCount)
+        .map(Number); // Convert string keys back to numbers
 };

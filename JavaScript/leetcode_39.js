@@ -10,20 +10,20 @@ The test cases are generated such that the number of unique combinations
  that sum up to target is less than 150 combinations for the given input.
 */
 
-var combinationSum = function(candidates, target) {
+var combinationSum = function (candidates, target) {
     let result = [];
     function backtrack(start, current_comb, total) {
         if (total === target) {
             result.push([...current_comb]);
             return;
-        };
-        if (total > target) return
+        }
+        if (total > target) return;
         for (let i = start; i < candidates.length; i++) {
-            current_comb.push(candidates[i])
-            backtrack(i, current_comb, total + candidates[i])
-            current_comb.pop()
-        };
-    };
-    backtrack(0, [], 0)
+            current_comb.push(candidates[i]);
+            backtrack(i, current_comb, total + candidates[i]);
+            current_comb.pop();
+        }
+    }
+    backtrack(0, [], 0);
     return result;
 };

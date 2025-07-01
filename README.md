@@ -63,12 +63,12 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 804                     | Unique Morse Words                        | Find the number of different transformations among all provided words.     | 0              | 0          | O (n)             |
 | 303                     | Range Sum Query                           | Given an integer array nums, handle multiple queries.                      | 5              | 7          | O (n)             |
 | 506                     | Relative ranks                            | Find ralative ranks.                                                       | 3              | 3          | O (n)             |
-| 748                     | Shortest completing word                  | Find the shortest completing word in words.                                | 30             | 30         | O (n*t)           |
+| 748                     | Shortest completing word                  | Find the shortest completing word in words.                                | 30             | 30         | O (n\*t)          |
 | 705                     | Design Hashset                            | Design a HashSet without using any built-in hash table libraries.          | 27             | 600        | O (n)             |
 | 682                     | Baseball game                             | Get the final score based on operations.                                   | 0              | 0          | O (n)             |
 | 717                     | 1-bit and 2-bit Chars                     | Find out if last character is one bit.                                     | 0              | 0          | O (n)             |
 | 575                     | Distribute Candies                        | Distribute Candies.                                                        | 17             | 16         | O (1)             |
-| 832                     | Flipping an Image                         | Reverse and Invert the image.                                              | 0              | 0          | O (n*t)           |
+| 832                     | Flipping an Image                         | Reverse and Invert the image.                                              | 0              | 0          | O (n\*t)          |
 | 977                     | Squares of a Sorted Array                 | Array of the squares of each number sorted in non-decreasing order.        | 6              | 11         | O (n)             |
 | 942                     | DI String Match                           | Reconstruct the permutation.                                               | 6              | 11         | O (n)             |
 | 412                     | FizzBuzz                                  | FizzBuzz                                                                   | 0              | 0          | O (n)             |
@@ -84,7 +84,7 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 1436                    | Destination City                          | Find a city that has no outgoing destination.                              | 0              | 0          | O (n)             |
 | 1528                    | Shuffle String                            | Shuffle the string into a new string with given indices.                   | 0              | 0          | O (n)             |
 | 1051                    | Height Checker                            | Find how many indices changed after sort.                                  | 0              | 0          | O (n)             |
-| 1464                    | Maximum Product                           | Find two biggest values -1 * each other.                                   | 0              | 0          | O (n)             |
+| 1464                    | Maximum Product                           | Find two biggest values -1 \* each other.                                  | 0              | 0          | O (n)             |
 | 1207                    | Unique Number of Occurrences              | Find occurrences of number arrays                                          | 0              | 0          | O (n)             |
 | 1304                    | Finds unique numbers to sum up to zero    | Find n unique numbers that add up to 0                                     | 0              | 0          | O (n)             |
 | 1287                    | Element appearing more than 25% In a List | Find a number that is appearing more than 25% times in a List              | 0              | 3          | O (n)             |
@@ -93,4 +93,6 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 1160                    | Word by characters                        | Find Words That Can Be Formed by Characters                                | 10             | 80         | O (n)             |
 | 905                     | Sort Array By Parity                      | Move even numbers before odd numbers in a list.                            | 0              | 6          | O (n)             |
 | 860                     | Lemonade Change                           | Find out if lemonade seller can return change to all customers.            | 0              | 6          | O (n)             |
-| 465                     | Island Perimeter                          | Find the perimeter of the island.                                          | 3              | 40         | O (n * t)         |
+| 465                     | Island Perimeter                          | Find the perimeter of the island.                                          | 3              | 40         | O (n \* t)        |
+| 46                      | Permutations                              | Find all the permutations from nums list.                                  | 0              | 0          | O (n)             |
+| 496                     | Next Greater Element 1                    | Find all available greater elements from nums1 in nums2.                   | 0              | 20         | O (n1 + n2)       |

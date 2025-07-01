@@ -8,9 +8,9 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
  * @param {number} rowIndex
  * @return {number[]}
  */
-var getRow = function(rowIndex) {
+var getRow = function (rowIndex) {
     let result = [];
-    
+
     for (let i = 0; i <= rowIndex; i++) {
         let row = Array(i + 1).fill(1); // Create row with i+1 elements, all 1
 

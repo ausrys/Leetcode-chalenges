@@ -2,24 +2,24 @@
  * @param {string} moves
  * @return {boolean}
  */
-var judgeCircle = function(moves) {
+var judgeCircle = function (moves) {
     let h = 0;
-    let v =0;
+    let v = 0;
     for (let index = 0; index < moves.length; index++) {
         switch (moves[index]) {
             case "U":
-                h++
+                h++;
                 break;
             case "D":
-                h--
+                h--;
                 break;
             case "L":
-                v--
+                v--;
                 break;
             default:
-                v++
+                v++;
                 break;
-        }; 
-    };
-    return v === 0 && h === 0
+        }
+    }
+    return v === 0 && h === 0;
 };

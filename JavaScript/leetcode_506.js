@@ -1,4 +1,4 @@
-var findRelativeRanks = function(score) {
+var findRelativeRanks = function (score) {
     const rankList = ["Gold Medal", "Silver Medal", "Bronze Medal"];
 
     // Create an array of [index, score] pairs

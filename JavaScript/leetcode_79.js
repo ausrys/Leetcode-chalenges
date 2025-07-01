@@ -1,4 +1,4 @@
-var exist = function(board, word) {
+var exist = function (board, word) {
     const rows = board.length;
     const cols = board[0].length;
 
@@ -7,19 +7,26 @@ var exist = function(board, word) {
         if (i === word.length) return true;
 
         // Check boundaries and current character
-        if (r < 0 || c < 0 || r >= rows || c >= cols || board[r][c] !== word[i]) {
+        if (
+            r < 0 ||
+            c < 0 ||
+            r >= rows ||
+            c >= cols ||
+            board[r][c] !== word[i]
+        ) {
             return false;
         }
 
         // Temporarily mark the cell as visited
         const temp = board[r][c];
-        board[r][c] = '#';
+        board[r][c] = "#";
 
         // Explore all 4 directions
-        const found = backtrack(r + 1, c, i + 1) ||
-                      backtrack(r - 1, c, i + 1) ||
-                      backtrack(r, c + 1, i + 1) ||
-                      backtrack(r, c - 1, i + 1);
+        const found =
+            backtrack(r + 1, c, i + 1) ||
+            backtrack(r - 1, c, i + 1) ||
+            backtrack(r, c + 1, i + 1) ||
+            backtrack(r, c - 1, i + 1);
 
         // Restore the cell
         board[r][c] = temp;

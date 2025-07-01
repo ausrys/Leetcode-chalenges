@@ -9,11 +9,10 @@ Determine whether the largest element in the array is at least twice as much as 
  * @param {number[]} nums
  * @return {number}
  */
-var dominantIndex = function(nums) {
-    let sorted = nums.toSorted((a, b) => a - b)
-    if (sorted.slice(-1)[0] < sorted.slice(-2, -1)[0] * 2) return -1
-    return nums.indexOf(sorted.slice(-1)[0])
-}
+var dominantIndex = function (nums) {
+    let sorted = nums.toSorted((a, b) => a - b);
+    if (sorted.slice(-1)[0] < sorted.slice(-2, -1)[0] * 2) return -1;
+    return nums.indexOf(sorted.slice(-1)[0]);
+};
 
-
-dominantIndex([3,6,1,0]);
+dominantIndex([3, 6, 1, 0]);

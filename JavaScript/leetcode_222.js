@@ -7,18 +7,19 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 */
 
-var countNodes = function(root) {
+var countNodes = function (root) {
     function getHeight(node) {
         let h = 0;
-        while(node) {
+        while (node) {
             h++;
-            node = node.left
-        };
+            node = node.left;
+        }
         return h;
-    };
+    }
     if (!root) return 0;
     left_height = getHeight(root.left);
     right_height = getHeight(root.right);
-    if (left_height === right_height) return (1 << left_height) + countNodes(root.right);
+    if (left_height === right_height)
+        return (1 << left_height) + countNodes(root.right);
     return (1 << right_height) + countNodes(root.left);
 };

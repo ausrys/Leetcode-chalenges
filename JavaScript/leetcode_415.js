@@ -16,5 +16,5 @@ function addStrings(num1, num2) {
         j--;
     }
 
-    return result.reverse().join('');
+    return result.reverse().join("");
 }
