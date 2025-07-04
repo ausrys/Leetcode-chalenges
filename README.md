@@ -97,3 +97,4 @@ My account - <https://leetcode.com/u/ausryswork/>
 | 46                      | Permutations                              | Find all the permutations from nums list.                                  | 0              | 0          | O (n)             |
 | 496                     | Next Greater Element 1                    | Find all available greater elements from nums1 in nums2.                   | 0              | 20         | O (n1 + n2)       |
 | 1365                    | Smaller Than Current Numbers              | Find how many smaller numbers than current number in a list.               | 0              | 0          | O (n log n)       |
+| 594                     | Longest Harmonious Subsequence            | Find Longest Harmonious Subsequence                                        | 16             | 20         | O (n)             |
