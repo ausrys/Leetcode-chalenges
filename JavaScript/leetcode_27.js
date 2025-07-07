@@ -27,5 +27,5 @@ function remove_element(array, element) {
     return k;
 }
 
-console.log(remove_element([3, 2, 2, 3], 3))
-console.log(remove_element([0, 1, 2, 2, 3, 0, 4, 2], 2))
+console.log(remove_element([3, 2, 2, 3], 3));
+console.log(remove_element([0, 1, 2, 2, 3, 0, 4, 2], 2));

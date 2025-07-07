@@ -1,4 +1,3 @@
-
 /* 
 
 Given an array of integers nums and an integer target, return indices of the
@@ -17,13 +16,14 @@ You can return the answer in any order.
  */
 
 function twoSum(nums, target) {
-    let num_map = {}
-    for (let index = 0; index <nums.length; index++){
+    let num_map = {};
+    for (let index = 0; index < nums.length; index++) {
         let complement = target - nums[index];
-        if (Object.hasOwn(num_map, complement)) return [num_map[complement], index]
-        num_map[nums[index]] = index
+        if (Object.hasOwn(num_map, complement))
+            return [num_map[complement], index];
+        num_map[nums[index]] = index;
     }
-    return []
+    return [];
 }
 
-console.log((twoSum([3,3], 6)))
+console.log(twoSum([3, 3], 6));

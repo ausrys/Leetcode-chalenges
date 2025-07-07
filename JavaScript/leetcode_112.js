@@ -10,10 +10,19 @@ A leaf is a node with no children.
  */
 
 var hasPathSum = function (root, targetSum) {
+<<<<<<< HEAD
   if (!root) return false;
   if (!root.left && !root.right && root.val === targetSum) return true;
   return (
     hasPathSum(root.left, targetSum - root.val) ||
     hasPathSum(root.right, targetSum - root.val)
   );
+=======
+    if (!root) return false;
+    if (!root.left && !root.right && root.val === targetSum) return true;
+    return (
+        hasPathSum(root.left, targetSum - root.val) ||
+        hasPathSum(root.right, targetSum - root.val)
+    );
+>>>>>>> a240f511499660ef602885c94b58faa12d2f12e8
 };

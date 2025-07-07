@@ -24,12 +24,12 @@ numbers and compare them.
 function removeDuplicates(nums) {
     let k = 1;
     for (let index = 0; index < nums.length; index++) {
-        if (nums[index] !== nums[k -1]) {
+        if (nums[index] !== nums[k - 1]) {
             nums[k] = nums[i];
             k++;
         }
     }
-    return k
+    return k;
 }
 
-console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));

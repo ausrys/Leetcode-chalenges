@@ -5,9 +5,9 @@ Find the node in the BST that the node's value equals val and return the subtree
 If such a node does not exist, return null.
 */
 
-var searchBST = function(root, val) {
-    if (!root) return null
-    if (root.val == val) return root
-    if (val < root.val) return searchBST(root.left, val)
-    else return searchBST(root.right, val)
+var searchBST = function (root, val) {
+    if (!root) return null;
+    if (root.val == val) return root;
+    if (val < root.val) return searchBST(root.left, val);
+    else return searchBST(root.right, val);
 };

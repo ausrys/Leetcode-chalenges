@@ -1,4 +1,4 @@
-var longestPalindrome = function(s) {
+var longestPalindrome = function (s) {
     let counts = new Map();
     for (let char of s) {
         counts.set(char, (counts.get(char) || 0) + 1);

@@ -4,10 +4,10 @@ Given a non-empty array of integers nums, every element appears twice except for
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 */
 
-var singleNumber = function(nums) {
-    let result = 0
+var singleNumber = function (nums) {
+    let result = 0;
     for (let num of nums) {
-        result ^= num
+        result ^= num;
     }
-    return result
+    return result;
 };

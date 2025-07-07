@@ -5,7 +5,8 @@ function findKthLargest(nums, k) {
         let storeIndex = left;
 
         for (let i = left; i < right; i++) {
-            if (nums[i] > pivot) { // > for kth largest
+            if (nums[i] > pivot) {
+                // > for kth largest
                 [nums[i], nums[storeIndex]] = [nums[storeIndex], nums[i]];
                 storeIndex++;
             }
@@ -15,11 +16,13 @@ function findKthLargest(nums, k) {
         return storeIndex;
     }
 
-    let left = 0, right = nums.length - 1;
+    let left = 0,
+        right = nums.length - 1;
     const target = k - 1;
 
     while (left <= right) {
-        const pivotIndex = left + Math.floor(Math.random() * (right - left + 1));
+        const pivotIndex =
+            left + Math.floor(Math.random() * (right - left + 1));
         const index = partition(left, right, pivotIndex);
 
         if (index === target) {
